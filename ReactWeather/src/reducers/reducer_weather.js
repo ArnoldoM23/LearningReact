@@ -8,3 +8,14 @@ export default function(state = [], action){
 
 	return state;
 }
+
+
+
+
+function test(...args) {
+	var terter = args;
+	return terter[0];
+}
+
+test(1,2,3)
+console.assert(test(1,2,3) === 1, {message:'expect 1'})

@@ -1,4 +1,4 @@
- // actions got to the reducers
+ // actions go to the reducers
 
 // axios is to make ajax request kinda like jquery
 import axios from 'axios';
